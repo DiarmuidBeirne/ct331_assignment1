@@ -10,16 +10,18 @@ void runTests(){
   traverse(l);
   printf("\n");
 
-  //Test insert after
+  //Test insert
   listElement* l2 = insertAfter(l, "another string (2)", 30);
   insertAfter(l2, "a final string (3)", 30);
   traverse(l);
-  printf("\n");
+  printf("\n\n\n");
+  
+  
 
-  // Test delete after
+  // Test delete 
   deleteAfter(l);
   traverse(l);
-  printf("\n");
+  printf("\n"\n\n);
 
   printf("\nTests complete.\n");
 }
